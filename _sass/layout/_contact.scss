@@ -1,0 +1,152 @@
+/* Contact */
+
+#contact {
+	border-bottom: solid 1px _palette(border);
+	overflow-x: hidden;
+
+	> .inner {
+		@include vendor('display', 'flex');
+		flex-wrap: wrap;
+		padding: 0 !important;
+	}
+
+	/* Contact boxes */
+	.split {
+		@include vendor('display', 'flex');
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.split > * {
+		width: 33%;
+		@include padding(3em, 0, (0, 3em, 0, 0));
+		position: relative;
+		border-top: solid 1px _palette(border);
+
+		&:nth-child(2n) {
+			padding-right: 0;
+			padding-left: 3em;
+		}
+	}
+
+	/* Remove top border from first row */
+	.split > :nth-child(1),
+	.split > :nth-child(2) {
+		border-top: 0;
+	}
+
+	/* Medium and down: stack vertically */
+	@include breakpoint(medium) {
+		.split > * {
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.split > :nth-child(2) {
+			border-top: solid 1px _palette(border);
+		}
+	}
+
+	/* Small screens: tighter spacing */
+	@include breakpoint(small) {
+		.split > * {
+			@include padding(2em, 0, (0, 0, 0, 0));
+		}
+	}
+}
+
+// ///
+// /// Forty by HTML5 UP
+// /// html5up.net | @ajlkn
+// /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+// ///
+
+// /* Contact */
+
+// 	#contact {
+// 		border-bottom: solid 1px _palette(border);
+// 		overflow-x: hidden;
+
+// 		> .inner {
+// 			@include vendor('display', 'flex');
+// 			padding: 0 !important;
+
+// 			> :nth-child(2n - 1) {
+// 				@include padding(4em, 0, (0, 3em, 0, 0));
+// 				border-right: solid 1px _palette(border);
+// 				width: 60%;
+// 				z-index: 1;
+// 			}
+
+// 			> :nth-child(2n) {
+// 				padding-left: 3em;
+// 				width: 40%;
+// 			}
+
+// 			> .split {
+// 				padding: 0;
+
+// 				> * {
+// 					@include padding(3em, 0, (0, 0, 0, 3em));
+// 					position: relative;
+
+// 					&:before {
+// 						border-top: solid 1px _palette(border);
+// 						content: '';
+// 						display: block;
+// 						margin-left: -3em;
+// 						position: absolute;
+// 						top: 0;
+// 						width: calc(100vw + 3em);
+// 					}
+// 				}
+
+// 				> :first-child {
+// 					&:before {
+// 						display: none;
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		@include breakpoint(medium) {
+// 			> .inner {
+// 				display: block;
+
+// 				> :nth-child(2n - 1) {
+// 					@include padding(4em, 0, (0, 0, 0, 0));
+// 					border-right: 0;
+// 					width: 100%;
+// 				}
+
+// 				> :nth-child(2n) {
+// 					padding-left: 0;
+// 					width: 100%;
+// 				}
+
+// 				> .split {
+// 					> * {
+// 						@include padding(3em, 0, (0, 0, 0, 0));
+
+// 						&:before {
+// 						}
+// 					}
+
+// 					> :first-child {
+// 						&:before {
+// 							display: block;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		@include breakpoint(small) {
+// 			> .inner {
+// 				> :nth-child(2n - 1) {
+// 					@include padding(3em, 0, (0, 0, 0, 0));
+// 				}
+// 			}
+// 		}
+// 	}
