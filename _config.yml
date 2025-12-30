@@ -3,8 +3,8 @@ title: Home
 subtitle: null
 email: emilio.gigante.eng@gmail.com
 description: Master’s graduate in Robotics and Automation Engineering with a background in Mechanical Engineering. Experienced in control systems, robotics, real-time applications, navigation and autonomous vehicles.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: "https://eg98nu.github.io"
+baseurl: ""
 author:
 street_address:
 city: Vienna
@@ -22,11 +22,11 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: 
+  GitHub: github.com/EG98NU
   GitLab:
   Google-Plus: 
   Instagram:
-  LinkedIn: 
+  LinkedIn: www.linkedin.com/in/emilio-gigante-37aa2b245
   Twitter: 
   Facebook:
   Slack:
@@ -41,4 +41,4 @@ exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
