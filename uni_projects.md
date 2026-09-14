@@ -1,8 +1,8 @@
 ---
 layout: page
-title: University Projects
-description: Academic work from University of Pisa
-image: assets/images/ing_pisa.png
+title: Università di Pisa
+description: Academic work during my bachelor's and master's degree program
+image: assets/images/unipi-logo-png-3.png
 nav-menu: true
 ---
 
@@ -72,7 +72,7 @@ nav-menu: true
             <div class="4u 12u$(medium)">
                 <div class="box">
                     <h3>Drone guidance</h3>
-                    <p>I was part of a team that entered and won a competition held in class, where we had to define the guidance law for a drone that had to intercept a simulated target in different scenarios inside a flying room. The law was implemented through Python [the report and the code will be added soon].</p>
+                    <p>I was part of a team that entered and won a competition held in class, where we had to define the guidance law for a drone that had to intercept a simulated target in different scenarios inside a flying room. The law was implemented through Python.</p>
                 </div>
             </div>
 

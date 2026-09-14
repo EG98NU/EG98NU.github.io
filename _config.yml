@@ -2,7 +2,7 @@
 title: Home
 subtitle: null
 email: emilio.gigante.eng@gmail.com
-description: Master’s graduate in Robotics and Automation Engineering with a background in Mechanical Engineering. Experienced in control systems, robotics, real-time applications, navigation and autonomous vehicles.
+description: Large-scale robotics research assistant. Master’s graduate in Robotics and Automation Engineering with a background in Mechanical Engineering. Experienced in control systems, robotics, real-time applications, navigation and autonomous vehicles.
 url: "https://eg98nu.github.io"
 baseurl: ""
 author:
@@ -11,7 +11,7 @@ city: Vienna
 state: Vienna
 zip_code: 1210
 country: Austria
-phone: +39 3400012710
+# phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
