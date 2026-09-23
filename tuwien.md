@@ -26,7 +26,9 @@ nav-menu: true
             <div class="4u 12u$(medium)">
                 <div class="box">
                     <h3>Reinforcement Learning forestry crane control</h3>
-                    <p>Development of a Reinforcement Learning controller which uses a PPO agent on a forestry crane simulated model to perform a task that includes approach, grasping and lifting of timber logs.</p>
+                    <p>Project assigned by the Austrian Institute of Technology (AIT):
+                    Development of a Reinforcement Learning controller which uses a PPO agent on a forestry crane simulated model to perform a task that includes approach, grasping and lifting of timber logs.
+                    [Repository in construction...] </p>
                 </div>
             </div>
 
