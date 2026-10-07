@@ -83,7 +83,7 @@ nav-menu: true
                     <p>I was part of a team that worked in a mission for an AUV that had to avoid simulated obstacles in a real lake.
           			Our team goal was to process data from the sensors to update the map of the environment to allow the path planning.</p>
                     <ul class="actions vertical">
-                        <li><a href="assets/pdf/sub_report.pdf" target="_blank" class="button special icon fa-file-pdf-o">View report</a></li>
+                        <li><a href="assets/pdf/sub_project.pdf" target="_blank" class="button special icon fa-file-pdf-o">View report</a></li>
                         <li><a href="https://github.com/EG98NU/Underwater_obstacle_avoidance_project" target="_blank" class="button special icon fa-github">View repo</a></li>
                     </ul>
                 </div>
