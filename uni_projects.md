@@ -26,7 +26,7 @@ nav-menu: true
             <div class="4u 12u$(medium)">
                 <div class="box">
                     <h3>Master Thesis: Managing AUV missions through small language models and behavior trees</h3>
-                    <p>Development of an approach to use a small language model to give commands in natural language to the system and manage missions autonomously. Application on the control system of an underwater robot using behaviour trees.</p>
+                    <p>Investigated small language models for on-board AUV mission management, including failure handling and model-confidence evaluation. Integrated the approach into a ROS-based AUV control system using behavior trees, with C++ for ROS components and Python/PyTorch for the language-model component.</p>
                     <ul class="actions vertical">
                         <li><a href="assets/pdf/Tesi.pdf" target="_blank" class="button special icon fa-file-pdf-o">View thesis</a></li>
                         <li><a href="assets/pdf/Summary.pdf" target="_blank" class="button special icon fa-file-pdf-o">View summary</a></li>
@@ -72,7 +72,7 @@ nav-menu: true
             <div class="4u 12u$(medium)">
                 <div class="box">
                     <h3>Drone guidance</h3>
-                    <p>I was part of a team that entered and won a competition held in class, where we had to define the guidance law for a drone that had to intercept a simulated target in different scenarios inside a flying room. The law was implemented through Python.</p>
+                    <p>I was part of a team that entered and won a competition held in class, where we had to define the guidance law for a drone that had to intercept a simulated target in different scenarios inside a flying room. The law was implemented through Python. The challenge was unfortunately not documented.</p>
                 </div>
             </div>
 
@@ -80,8 +80,7 @@ nav-menu: true
             <div class="4u 12u$(medium)">
                 <div class="box">
                     <h3>Underwater obstacle avoidance</h3>
-                    <p>I was part of a team that worked in a mission for an AUV that had to avoid simulated obstacles in a real lake.
-          			Our team goal was to process data from the sensors to update the map of the environment to allow the path planning.</p>
+                    <p>Contributed to an AUV mission in a real lake with simulated obstacles. Worked on sensor-data processing and environmental-map updates to support path planning, using ROS and Python.</p>
                     <ul class="actions vertical">
                         <li><a href="assets/pdf/sub_project.pdf" target="_blank" class="button special icon fa-file-pdf-o">View report</a></li>
                         <li><a href="https://github.com/EG98NU/Underwater_obstacle_avoidance_project" target="_blank" class="button special icon fa-github">View repo</a></li>

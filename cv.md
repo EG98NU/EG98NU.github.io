@@ -22,7 +22,7 @@ nav-menu: true
 
       <ul class="actions">
         <li>
-          <a href="{{ '/assets/pdf/CV_notel.pdf' | relative_url }}"
+          <a href="{{ '/assets/pdf/CV_Emilio_Gigante.pdf' | relative_url }}"
              target="_blank"
              rel="noopener"
              class="button special icon fa-file-pdf-o">
@@ -31,7 +31,7 @@ nav-menu: true
         </li>
 
         <li>
-          <a href="{{ '/assets/pdf/CV_notel.pdf' | relative_url }}"
+          <a href="{{ '/assets/pdf/CV_Emilio_Gigante.pdf' | relative_url }}"
              download="CV_Emilio_Gigante_.pdf"
              class="button icon fa-download">
             Download CV
@@ -45,7 +45,7 @@ nav-menu: true
           title="Curriculum Vitae — Emilio Gigante">
           <p>
             Your browser does not support embedded PDFs.
-            <a href="{{ '/assets/pdf/CV_notel.pdf' | relative_url }}"
+            <a href="{{ '/assets/pdf/CV_Emilio_Gigante.pdf' | relative_url }}"
                target="_blank"
                rel="noopener">
               Open the CV in a new tab
