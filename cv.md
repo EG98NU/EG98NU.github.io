@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
+permalink: /CV/
 image: assets/images/foto_cv_p.jpg # assets/images/fotocv2.jpg
 nav-menu: true
 ---
@@ -17,7 +18,7 @@ nav-menu: true
       </header>
 
       <p>
-        Here you can look and download my Curriculum Vitae.
+        Here you can look at and download my Curriculum Vitae.
       </p>
 
       <!-- <ul class="actions">

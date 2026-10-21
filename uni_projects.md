@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Università di Pisa
+permalink: /unipi/
 description: Academic work during my bachelor's and master's degree program
 image: assets/images/unipi-logo-png-3.png
 nav-menu: true
