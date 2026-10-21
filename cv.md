@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-image: assets/images/fotocv2.jpg
+image: assets/images/foto_cv_p.jpg # assets/images/fotocv2.jpg
 nav-menu: true
 ---
 
@@ -17,10 +17,10 @@ nav-menu: true
       </header>
 
       <p>
-        You can view my Curriculum Vitae below or download the PDF version.
+        Here you can look and download my Curriculum Vitae.
       </p>
 
-      <ul class="actions">
+      <!-- <ul class="actions">
         <li>
           <a href="{{ '/assets/pdf/CV_Emilio_Gigante.pdf' | relative_url }}"
              target="_blank"
@@ -37,20 +37,13 @@ nav-menu: true
             Download CV
           </a>
         </li>
-      </ul>
+      </ul> -->
 
       <div class="cv-preview">
         <iframe
-          src="{{ '/assets/pdf/CV_notel.pdf' | relative_url }}"
-          title="Curriculum Vitae — Emilio Gigante">
-          <p>
-            Your browser does not support embedded PDFs.
-            <a href="{{ '/assets/pdf/CV_Emilio_Gigante.pdf' | relative_url }}"
-               target="_blank"
-               rel="noopener">
-              Open the CV in a new tab
-            </a>.
-          </p>
+          src="{{ '/assets/pdf/CV_Emilio_Gigante.pdf' | relative_url }}"
+          title="Curriculum Vitae — Emilio Gigante"
+          style="display: block; width: 100%; height: 90vh; border: 0;">
         </iframe>
       </div>
 
