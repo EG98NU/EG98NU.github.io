@@ -31,7 +31,7 @@ nav-menu: true
                     Development of a Reinforcement Learning controller which uses a PPO agent on a forestry crane simulated model to perform a task that includes approach, grasping and lifting of timber logs.
                     [Repository in construction...] </p>
                     <ul class="actions vertical">
-                        <li><a href="assets/pdf/RLLG_complete.pdf" target="_blank" class="button special icon fa-file-pdf-o">View presentation</a></li>
+                        <li><a href="{{ 'assets/pdf/RLLG_complete.pdf' | relative_url  }}" target="_blank" class="button special icon fa-file-pdf-o">View presentation</a></li>
                         <!-- <li><a href="" target="_blank" class="button special icon fa-github">View repo</a></li> -->
                     </ul>
                 </div>
